@@ -83,6 +83,7 @@ From the repo root, open PowerShell and run:
 ```powershell
 cd server
 npm install
+docker run --name api-redis -p 6379:6379 -d redis:7-alpine
 ```
 
 Create a `.env` (or set env vars) for the server. Example env variables used by the project:
@@ -109,7 +110,7 @@ Quickstart (client)
 From the repo root:
 
 ```powershell
-cd client
+cd super_glass_frontend
 npm install
 npm run dev
 ```
@@ -223,4 +224,5 @@ Credits
 This demo was assembled to illustrate common patterns for building a distributed API rate limiter with Redis + Lua, Mongo auditing, and Prometheus metrics.
 
 If anything in this README is inaccurate for your local setup, tell me what you want changed and I will update it.
+
 
