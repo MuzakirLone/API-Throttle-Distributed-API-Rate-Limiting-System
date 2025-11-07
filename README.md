@@ -1,4 +1,4 @@
- # API Throttle (API_Throttle)
+  # API Throttle (API_Throttle)
 
 A simple, practical API rate-limiting demo that shows identity-aware quotas, distributed token buckets (via Redis), sampled auditing to MongoDB, metrics for Prometheus scraping, and admin controls for runtime policy updates.
 
@@ -6,6 +6,29 @@ This repository contains two main parts:
 
 - `server/` — Node.js Express server implementing the rate limiter, metrics, admin endpoints, Redis + Lua based limiter, and MongoDB sampling.
 - `client/` — A tiny frontend (Vite/React) for manual burst testing and exploration of throttling behavior.
+
+# Project Structure
+
+API_Throttle
+├── client
+│   ├── burst-test.js
+│   ├── sustained-test.js
+│   ├── multi-instance-test.js
+│   ├── package.json
+│   └── utils
+│       └── request.js
+└── server
+    ├── package.json
+    └── src
+        ├── index.js
+        ├── metrics.js
+        ├── mongo.js
+        ├── rateLimiter.js
+        ├── rateLimiter.lua
+        ├── redis.js
+        └── routes
+            ├── admin.js
+            └── demo.js
 
 Contents
 --------
