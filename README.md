@@ -7,6 +7,14 @@ This repository contains two main parts:
 - `server/` — Node.js Express server implementing the rate limiter, metrics, admin endpoints, Redis + Lua based limiter, and MongoDB sampling.
 - `client/` — A tiny frontend (Vite/React) for manual burst testing and exploration of throttling behavior.
 
+# Working (Screenshots)
+<img width="1511" height="778" alt="image" src="https://github.com/user-attachments/assets/9ec94d23-d902-4a71-b167-873cf3337e3c" />
+<img width="1306" height="863" alt="image" src="https://github.com/user-attachments/assets/c578f463-8ec6-482d-b12a-ff9c84fa0319" />
+<img width="1226" height="616" alt="image" src="https://github.com/user-attachments/assets/dcd0621a-f206-4a56-aab8-0303e12bd3f7" />
+<img width="1261" height="682" alt="image" src="https://github.com/user-attachments/assets/9adc1659-c627-440d-8ce4-cc9c1ee7c58c" />
+<img width="1327" height="874" alt="image" src="https://github.com/user-attachments/assets/5288a513-0971-496a-b949-102e7923fca4" />
+<img width="1185" height="770" alt="image" src="https://github.com/user-attachments/assets/06d9a638-7588-4a72-be47-616db6fd2f89" />
+
 # Project Structure
 ```
 API_Throttle
