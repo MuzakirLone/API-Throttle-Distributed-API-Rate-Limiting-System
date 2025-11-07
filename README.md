@@ -1,6 +1,5 @@
 # API_Throttle
 
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## 📝 Description
 
