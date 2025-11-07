@@ -5,7 +5,7 @@ A simple, practical API rate-limiting demo that shows identity-aware quotas, dis
 This repository contains two main parts:
 
 - `server/` — Node.js Express server implementing the rate limiter, metrics, admin endpoints, Redis + Lua based limiter, and MongoDB sampling.
-- `client/` — A tiny frontend (Vite/React) for manual burst testing and exploration of throttling behavior.
+- `super_glass_frontend/` — A tiny frontend (Vite/React) for manual burst testing and exploration of throttling behavior.
 
 # Project Structure
 ```
@@ -224,6 +224,7 @@ Credits
 This demo was assembled to illustrate common patterns for building a distributed API rate limiter with Redis + Lua, Mongo auditing, and Prometheus metrics.
 
 If anything in this README is inaccurate for your local setup, tell me what you want changed and I will update it.
+
 
 
 
