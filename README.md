@@ -1,4 +1,4 @@
- # API Throttle 
+ # API Throttle Rate-Limiting
 
 A simple, practical API rate-limiting demo that shows identity-aware quotas, distributed token buckets (via Redis), sampled auditing to MongoDB, metrics for Prometheus scraping, and admin controls for runtime policy updates.
 
@@ -224,5 +224,6 @@ Credits
 This demo was assembled to illustrate common patterns for building a distributed API rate limiter with Redis + Lua, Mongo auditing, and Prometheus metrics.
 
 If anything in this README is inaccurate for your local setup, tell me what you want changed and I will update it.
+
 
 
