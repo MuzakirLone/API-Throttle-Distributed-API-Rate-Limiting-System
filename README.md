@@ -8,7 +8,7 @@ This repository contains two main parts:
 - `client/` — A tiny frontend (Vite/React) for manual burst testing and exploration of throttling behavior.
 
 # Project Structure
-
+```
 API_Throttle
 ├── client
 │   ├── burst-test.js
@@ -29,7 +29,7 @@ API_Throttle
         └── routes
             ├── admin.js
             └── demo.js
-
+```
 Contents
 --------
 
